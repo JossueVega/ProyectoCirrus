@@ -17,10 +17,10 @@
             <div class="logo">
                 <h1>Contactos y conocenos</h1>
             </div>
-            <div class="menu">
-                <a href="GamePlay.html">Inicio</a>
-                <a href="GAME.html">Galeria</a>
-                <a href="Play.html">Contactos</a>
+            <div class="usquare menu">
+                <a href="Index.html" class="utb utb-OLR">Inicio</a>
+                <a href="Pagina2.html" class="utb utb-OLR">Galeria</a>
+                <a href="Pagina3.html" class="utb utb-OLR">Contactos</a>
             </div>
         </div>
     </header>
@@ -42,31 +42,31 @@
         referencias a juegos de otras generaciones que no puedes perderte.</p>
     </div>
     <div>
-        <section class="izquierda">
+        <section class="row ignore-screen level input-control ">
             <a><h3>Suscripcion</h3></a>
             <form action="" method="POST">
-                <div>
+                <div class="col-9 ignore-screen level-item">
                     <label for="">Nombre</label>
-                    <input type="text" name="Nombre" value="" placeholder="Nombres">
+                    <input type="text" class="text-danger input-error" name="Nombre" value="" placeholder="Nombres">
                 </div>
-                <div>
+                <div class="col-9 ignore-screen level-item" >
                     <label for=""> Apellidos</label>
-                    <input type="text" name="Apellidos" value="" placeholder="Aplidos">
+                    <input type="text" class="text-danger input-error" name="Apellidos" value="" placeholder="Aplidos">
                 </div>
-                <div>
+                <div class="col-9 ignore-screen level-item">
                     <label for=""> Telefono</label>
-                    <input type="number" name="Telefono" value="" placeholder="Telefono">
+                    <input type="number" class="text-danger input-error" name="Telefono" value="" placeholder="Telefono">
                 </div>
-                <div>
+                <div class="col-9 ignore-screen level-item">
                     <label for="">Nacimiento</label>
-                    <input type="datetime-local" name="Nacimiento" value="" placeholder="Nombre">
+                    <input type="datetime-local" class="text-danger input-error" name="Nacimiento" value="" placeholder="Nombre">
                 </div>
-                <div>
+                <div class="col-9 ignore-screen level-item">
                     <label for="">Correo</label>
-                    <input type="Email" name="Correo" value="" placeholder="Correo">
+                    <input type="Email" class="text-danger input-error" name="Correo" value="" placeholder="Correo">
                 </div>
-                <div>
-                    <button type="button">
+                <div class="btn-container ">
+                    <button type="button" class="btn-primary btn-animated">
                         Suscripcion
                     </button>
                 </div>
@@ -74,19 +74,20 @@
         </section>
     </div>
     <div>
-        <section>
+        <section class="row ignore-screen level input-control ">
+            <a><h3>Compartir comentarios</h3></a>
             <div>
                 <form action="" method="POST">
-                    <div>
+                    <div class="col-9 ignore-screen level-item">
                         <label for="">Usuario</label>
-                        <input type="text" name="Usuario" value="" placeholder="Usuario">
+                        <input type="text" class="text-danger input-error" name="Usuario" value="" placeholder="Usuario">
                     </div>
-                    <div>
+                    <div class="col-9 ignore-screen level-item">
                         <label for="">Comentario</label>
-                        <input type="text" name="Comentario" value="" placeholder="Comentario" class="coment">
+                        <input type="text" name="Comentario" value="" placeholder="Comentario" class="text-danger input-error coment">
                     </div>
-                    <div>
-                        <button type="button">
+                    <div class="btn-container ">
+                        <button type="button" class="btn-primary btn-animated">
                             Enviar
                         </button>
                     </div>
