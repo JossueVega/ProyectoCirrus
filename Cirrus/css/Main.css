@@ -1,0 +1,114 @@
+body{
+    background: radial-gradient(circle, rgb(55, 160, 160), black);
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    color: purple;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    height: 60px;
+    margin-bottom: 3em;
+}
+a{
+    text-decoration: none;
+    color: rgb(28, 191, 202);
+    font-size: 14pt;
+}
+h1,h3,h4{
+    margin: 0;
+}
+.fondo{
+    max-width: 100%;
+    height: 450px;
+    background-image: url("https://i.pinimg.com/originals/5a/1f/6f/5a1f6f90961e58f24cf6e2d7fab5bc84.jpg")
+
+}
+.logo{
+    float: left;
+    padding: 0.6em;
+}
+.menu{
+    float: right;
+    padding: 0.5em;
+}
+.logo > h1{
+    margin-left: 2em;
+}
+.menu >a{
+    margin-right: 1em;   
+}
+section>h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48pt;
+    padding-top: 10%;
+    padding-left: 4.5em;
+}
+.parametro{
+    width: 100%;
+    max-height: 400px;
+    padding-top: 30%;
+}
+.articulo{
+    float: left;
+    width: 28%; 
+    margin: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    color: #55f392;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+article>h4{
+    color: rgb(216, 79, 216); 
+    font-family: 'Courier New', Courier, monospace;
+}
+label{
+    color: gold;
+}
+.contenido{
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    text-align: justify;
+}
+.izquierda{
+    float: left;
+    color: rgb(252, 252, 11);
+    width: 60%;
+    height: 3700px;
+    margin-top: 1em;
+    margin-left: 20px;
+}
+input{
+    width: 220px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.coment{
+    height: 90px;
+    width: 280px;
+}
+button{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(81, 245, 152);
+    color: rgba(249, 250, 249, 0.938);
+}
+.imagen>img{
+    width: 600px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px black;
+}
+.imagen{
+    float: left;
+}
+#recor{
+    height: 800px;
+}
